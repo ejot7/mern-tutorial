@@ -1,7 +1,10 @@
 # MERN Tutorial
-This is a tutorial project from the excellent channel Traversy Media on YT
+This is a tutorial project from the excellent channel Traversy Media on YT.
+
 I'm not affiliated with the channel or the creators.
-# Important:
+
+# Important
+
 ### To make it run follow these steps:
 
 1) change the file ".env.example" to ".env" and change the values according to your environment
