@@ -5,6 +5,11 @@ const goalSchema = mongoose.Schema({
     type: 'String',
     required: [true, "Goal text is required."],
   },
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "User",
+    required: [true, "User is required."]
+  }
 }, {
     timestamps: true,
 });
